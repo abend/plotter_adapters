@@ -9,8 +9,8 @@ band_edge_diameter = 15;    // diameter where band starts to angle in
 
 // sharpie outer diameter measured at 10.64mm
 // plotter outer diameter measured at 11.50mm
-body_outer_diameter = 12.75; // outer diameter of the main body
-body_inner_diameter = 11; // inner diameter of the main body
+body_outer_diameter = 11.5; // outer diameter of the main body
+body_inner_diameter = 9.75; // inner diameter of the main body
 
 profile = [
     [0,0],
@@ -25,7 +25,7 @@ profile = [
 difference() {
 	union() {
 		rotate_extrude($fn=80) polygon(points=profile);
-		cylinder(r=body_outer_diameter/2, h=10, $fn=80);
+		cylinder(r=body_outer_diameter/2, h=16, $fn=80);
 	}
 
 	#translate([0,0,-25]) cylinder(r=body_inner_diameter/2, h=50, $fn=80);
