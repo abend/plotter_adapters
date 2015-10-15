@@ -1,36 +1,36 @@
 IN;
 SP1;
-DT$;
+DT.;
 SI0.4,0.7;
 
 PU0,2500;
 FS1;
-LBPressure 1 $;
+LBPressure FS1.;
 PU0,2000;
 FS2;
-LBPressure 2 $;
+LBPressure FS2.;
 PU0,1500;
 FS3;
-LBPressure 3 $;
+LBPressure FS3.;
 PU0,1000;
 FS4;
-LBPressure 4 $;
+LBPressure FS4.;
 
 PU0,000;
 VS1;
-LBSpeed 1 $;
+LBSpeed 1.;
 PU0,-500;
 VS15;
-LBSpeed 15 $;
+LBSpeed 15.;
 PU0,-1000;
 VS30;
-LBSpeed 30 $;
+LBSpeed 30.;
 PU0,-1500;
 VS45;
-LBSpeed 45 $;
+LBSpeed 45.;
 PU0,-2000;
 VS60;
-LBSpeed 60 $;
+LBSpeed 60.;
 
 PA0,0;
 SP0;
