@@ -1,4 +1,4 @@
-SCAD = $(wildcard *.scad)
+SCAD = $(wildcard *_adapter.scad)
 #SCAD = apparent_systems.scad
 STL = $(SCAD:%.scad=%.stl)
 
