@@ -7,7 +7,7 @@ include <common.scad>;
 
 body_outer_diameter = 11.5;
 body_inner_diameter = 9;
-body_height1 = 10;
+body_height1 = 18;
 body_height2 = 19;
 
 module top(clip) {
